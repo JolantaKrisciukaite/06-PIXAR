@@ -1,14 +1,15 @@
 body {
-    background-color: #f1f1f1;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    background-color: #fff;
 }
 
 header {
+    width: 100%;
     display: inline-block;
-    width: 800px;
     margin-top: 100px;
-    margin-left: calc((100% - 800px) / 2);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #f1f1f1; 
+    
 }
 
 header>img {
@@ -42,9 +43,9 @@ section {
 
 div {
     display: inline-block;
-    width: 31%;
+    width: 50%;
     float: left;
-    margin-top: 12%;
+    margin-top: 20%;
     text-align: center;
     height: 150px;
 }
@@ -80,8 +81,8 @@ span {
 section>img {
     display: inline-block;
     float: left;
-    width: 18%;
-    margin-top: 4%;
-    margin-left: 28%;
+    width: 29%;
+    margin-top: 6%;
+    margin-left: 13%;
 }
 
