@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+
+header {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc ( (100% - 800px) / 2);
+    background-color: red;
+}
+
+main {
+    
+}
