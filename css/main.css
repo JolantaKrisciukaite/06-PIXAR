@@ -2,17 +2,12 @@ body {
     background-color: #f1f1f1;
 }
 
-main {
-    display: inline-block;
-    width: 800px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 header {
     display: inline-block;
     width: 800px;
     margin-top: 100px;
     margin-left: calc((100% - 800px) / 2);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #f1f1f1; 
 }
 
@@ -42,19 +37,44 @@ a {
 section {
     display: inline-block;
     width: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 div {
     display: inline-block;
-    float: right;
-    width: 60%;
-   
+    width: 31%;
+    float: left;
+    margin-top: 12%;
+    text-align: center;
+    height: 150px;
 }
 
 h1 {
     display: inline-block;
-    float: right;
     width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+p {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 10px;
+    font-size: 10px;
+    border: 3px solid #4C2EE6;
+}
+
+span {
+    display: inline-block;
+    width: 60%;
+    margin-top: 0;
+    padding-top: 12px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
 }
 
 section>img {
@@ -64,3 +84,4 @@ section>img {
     margin-top: 4%;
     margin-left: 28%;
 }
+
