@@ -2,6 +2,10 @@ body{
     background-color: aqua;
 }
 
+main {
+    
+}
+
 header {
     display: inline-block;
     width: 800px;
@@ -9,6 +13,3 @@ header {
     background-color: red;
 }
 
-main {
-    
-}
